@@ -1,0 +1,33 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.upload-wrapper, .send-wrapper {
+    display: none;
+    width: 100px;
+}
+
+.child {
+    margin: 10px;
+}
+.visible {
+    display: inline-block;
+}
+.btn-send {
+    cursor: not-allowed !important;
+}
+
+.btn-send-active {
+    cursor: pointer !important;
+    background-color: blue !important;
+}
+.btn-send-active:hover ,.btn-send-active:active {
+    background-color: blue !important;
+
+}
+
+.btn-delete {
+    margin-top: 8px;
+    height: 38px !important;
+}
